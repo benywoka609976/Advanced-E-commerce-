@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Household Electronics | RosmaTT Kenya</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body class="theme-default household-electronics-bg">
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">RosmaTT <span style="color: red;">&#x1F339;</span></a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="themeSwitcherBtn" class="theme-btn">Switch Theme</button></li>
+                <li><a href="checkout.html" class="cart-link"><span id="cartCount">0</span> 🛒</a></li>
+                <li><a href="tel:+254714227080" class="call-btn">Call Us</a></li>
+            </ul>
+        </nav>
+        <div class="quote">
+            Roses are Red, and Violets are Blue <span style="color: red;">&#x1F339;</span>
+        </div>
+    </header>
+    <main>
+        <section class="product-category">
+            <h1>Household Electronics</h1>
+            <div class="product-grid">
+                <div class="product-card" data-id="he-1" data-name="Samsung Microwave" data-price="8500">
+                    <img src="images/household-electronics/samsung-microwave.jpg" alt="Samsung Microwave" loading="lazy">
+                    <h3>Samsung Microwave</h3>
+                    <p>Ksh 8,500</p>
+                    <button class="details-btn">Details</button>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="he-2" data-name="Philips Iron" data-price="3200">
+                    <img src="images/household-electronics/philips-iron.jpg" alt="Philips Iron" loading="lazy">
+                    <h3>Philips Iron</h3>
+                    <p>Ksh 3,200</p>
+                    <button class="details-btn">Details</button>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                <!-- Add 18 more household electronics products here -->
+            </div>
+        </section>
+        <section class="promo-videos">
+            <video src="videos/household-electronics1.mp4" class="promo-video" autoplay muted loop></video>
+            <video src="videos/household-electronics2.mp4" class="promo-video" autoplay muted loop></video>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <span>&copy; 2025 RosmaTT Kenya. All rights reserved.</span>
+        </div>
+    </footer>
+    <div id="cartFloat" class="cart-float hidden"></div>
+    <div id="productModal" class="modal hidden"></div>
+</body>
+</html>
