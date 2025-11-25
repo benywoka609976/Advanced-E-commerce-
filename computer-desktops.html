@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktops | RosmaTT Kenya</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body class="theme-default computer-desktops-bg">
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">RosmaTT <span style="color: red;">&#x1F339;</span></a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="themeSwitcherBtn" class="theme-btn">Switch Theme</button></li>
+                <li><a href="checkout.html" class="cart-link"><span id="cartCount">0</span> 🛒</a></li>
+                <li><a href="tel:+254714227080" class="call-btn">Call Us</a></li>
+            </ul>
+        </nav>
+        <div class="quote">
+            Roses are Red, and Violets are Blue <span style="color: red;">&#x1F339;</span>
+        </div>
+    </header>
+    <main>
+        <section class="product-category">
+            <h1>Desktops</h1>
+            <div class="product-grid">
+                <div class="product-card" data-id="dt-1" data-name="Dell OptiPlex" data-price="29000">
+                    <img src="images/computer-desktops/dell-optiplex.jpg" alt="Dell OptiPlex" loading="lazy">
+                    <h3>Dell OptiPlex</h3>
+                    <p>Ksh 29,000</p>
+                    <button class="details-btn">Details</button>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="dt-2" data-name="HP Pavilion Desktop" data-price="33000">
+                    <img src="images/computer-desktops/hp-pavilion.jpg" alt="HP Pavilion Desktop" loading="lazy">
+                    <h3>HP Pavilion Desktop</h3>
+                    <p>Ksh 33,000</p>
+                    <button class="details-btn">Details</button>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+                <!-- Add 18 more desktops products here -->
+            </div>
+        </section>
+        <section class="promo-videos">
+            <video src="videos/computer-desktops1.mp4" class="promo-video" autoplay muted loop></video>
+            <video src="videos/computer-desktops2.mp4" class="promo-video" autoplay muted loop></video>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <span>&copy; 2025 RosmaTT Kenya. All rights reserved.</span>
+        </div>
+    </footer>
+    <div id="cartFloat" class="cart-float hidden"></div>
+    <div id="productModal" class="modal hidden"></div>
+</body>
+</html>
