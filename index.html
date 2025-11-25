@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RosmaTT Kenya | Home</title>
+    <meta name="description" content="RosmaTT Kenya - Leading e-commerce in Kenya. Shop electronics, clothes, shoes and much more.">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body class="theme-default home-bg">
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">RosmaTT <span style="color: red;">&#x1F339;</span></a></div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="categories.html">Categories</a>
+                    <ul class="dropdown-content">
+                        <li><a href="smartphones.html">Smartphones</a></li>
+                        <li><a href="household-electronics.html">Household Electronics</a></li>
+                        <li><a href="cleaning-equipment.html">Cleaning Equipment</a></li>
+                        <li><a href="kitchenware.html">Kitchenware</a></li>
+                        <li><a href="shoes.html">Shoes</a></li>
+                        <li><a href="clothes.html">Clothes</a></li>
+                        <li><a href="computer-desktops.html">Desktops</a></li>
+                        <li><a href="laptops.html">Laptops</a></li>
+                        <li><a href="gaming-laptops.html">Gaming Laptops</a></li>
+                    </ul>
+                </li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="themeSwitcherBtn" class="theme-btn">Switch Theme</button></li>
+                <li><a href="checkout.html" class="cart-link"><span id="cartCount">0</span> 🛒</a></li>
+                <li><a href="tel:+254714227080" class="call-btn">Call Us</a></li>
+            </ul>
+        </nav>
+        <div class="quote">
+            Roses are Red, and Violets are Blue <span style="color: red;">&#x1F339;</span>
+        </div>
+    </header>
+    <main>
+        <section class="slider-section">
+            <h1>Welcome to RosmaTT Kenya!</h1>
+            <div class="slider">
+                <!-- Slider Images: Replace src with your images in /images/ folder -->
+                <div class="slide"><img src="images/slider1.jpg" alt="Promo 1" loading="lazy"></div>
+                <div class="slide"><img src="images/slider2.jpg" alt="Promo 2" loading="lazy"></div>
+                <div class="slide"><img src="images/slider3.jpg" alt="Promo 3" loading="lazy"></div>
+                <div class="slide"><img src="images/slider4.jpg" alt="Promo 4" loading="lazy"></div>
+                <div class="slide"><img src="images/slider5.jpg" alt="Promo 5" loading="lazy"></div>
+                <div class="slide"><img src="images/slider6.jpg" alt="Promo 6" loading="lazy"></div>
+                <div class="slide"><img src="images/slider7.jpg" alt="Promo 7" loading="lazy"></div>
+                <div class="slide"><img src="images/slider8.jpg" alt="Promo 8" loading="lazy"></div>
+                <div class="slide"><img src="images/slider9.jpg" alt="Promo 9" loading="lazy"></div>
+                <div class="slide"><img src="images/slider10.jpg" alt="Promo 10" loading="lazy"></div>
+            </div>
+        </section>
+        <section class="featured-categories">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <a href="smartphones.html" class="category-card">Smartphones</a>
+                <a href="household-electronics.html" class="category-card">Household Electronics</a>
+                <a href="cleaning-equipment.html" class="category-card">Cleaning Equipment</a>
+                <a href="kitchenware.html" class="category-card">Kitchenware</a>
+                <a href="shoes.html" class="category-card">Shoes</a>
+                <a href="clothes.html" class="category-card">Clothes</a>
+                <a href="computer-desktops.html" class="category-card">Desktops</a>
+                <a href="laptops.html" class="category-card">Laptops</a>
+                <a href="gaming-laptops.html" class="category-card">Gaming Laptops</a>
+            </div>
+        </section>
+        <!-- Videos -->
+        <section class="promo-videos">
+            <video src="videos/promo1.mp4" class="promo-video" autoplay muted loop></video>
+            <video src="videos/promo2.mp4" class="promo-video" autoplay muted loop></video>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <span>&copy; 2025 RosmaTT Kenya. All rights reserved.</span>
+        </div>
+    </footer>
+    <!-- Cart Float/Modal -->
+    <div id="cartFloat" class="cart-float hidden"></div>
+    <!-- Product Popup Modal -->
+    <div id="productModal" class="modal hidden"></div>
+</body>
+</html>
